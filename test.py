@@ -6,7 +6,8 @@ import os
 
 try:
 
-	import requestsexcept ImportError:
+	import requests
+	except ImportError:
 
 	os.system("pip2 install requests")
 
